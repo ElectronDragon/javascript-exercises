@@ -1,5 +1,12 @@
 const removeFromArray = function(array) {
-    let newArray = array;
+    let newArray = [9];
+    let arrayLength = array.length;
+
+    for (let i = 0; i < array.length; i++) {
+        newArray.push(array[i]);
+    }
+
+    // Need for loop and if statement for removal
 
     return newArray;
 };
