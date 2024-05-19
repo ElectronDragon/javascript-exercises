@@ -17,21 +17,7 @@ const removeFromArray = function(array) {
 
 removeFromArray([1,2,3,4], 3, 4);
 
-// const removeFromArray = function(array, exclude) {
-    // let newArray = [];
-    // let arrayLength = array.length;
-    // let argLength = arguments.length;
-// 
-    // for (let i = 0; i < array.length; i++) {
-        // if (array[i] == exclude) {
-            do nothing
-        // } else {
-        // newArray.push(array[i]);
-        // }
-    // }
-// 
-    // return argLength;
-// };
+// This exercise was made harder by not reading all the tests at the outset. I was coding in one direction, but then had to start from scratch at the half-way mark because my code could not accomodate the new tests. Read ahead, next time.
 
 
 // Do not edit below this line
