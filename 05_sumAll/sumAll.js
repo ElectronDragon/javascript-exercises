@@ -6,7 +6,7 @@ const sumAll = function(num1, num2) {
     let intervalSum
     
 
-    if (num1 < 1 || num2 < 1) {
+    if (num1 < 1 || num2 < 1 || typeof num1 != "number" || typeof num2 != "number") {
         return "ERROR";
     } else {
         if (num1 > num2) {
