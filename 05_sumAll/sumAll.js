@@ -1,8 +1,6 @@
 const sumAll = function(num1, num2) {
     let smallerNumber
     let largerNumber
-    let smallSum
-    let largeSum
     let intervalSum
     
 
@@ -17,9 +15,7 @@ const sumAll = function(num1, num2) {
             smallerNumber = num1;
         }
 
-        smallSum = smallerNumber*(smallerNumber+1)/2;
-        largeSum = largerNumber*(largerNumber+1)/2;
-        intervalSum = largeSum-smallSum +1;
+        intervalSum = (largerNumber-smallerNumber+1)*(largerNumber+smallerNumber)/2;
 
         return intervalSum;
     }
